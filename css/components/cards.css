@@ -1,0 +1,28 @@
+.cards {
+  width: 300px;
+  height: 400px;
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0 0 20px rgb(195, 195, 195);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.cards h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cards p {
+  color: gray;
+  font-size: 15px;
+}

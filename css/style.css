@@ -1,0 +1,121 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Components */
+@import url('components/button.css');
+@import url('components/cards.css');
+
+/* Utilities */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/* HERO BANNER */
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header-infos {
+  text-align: left;
+}
+
+.header-infos-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.header-infos-subtitle {
+  color: rgb(163, 163, 163);
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* HOW IT WORKS */
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cards-container h3 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.cards-list {
+  display: flex;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(187, 187, 187);
+}
+
+.footer-icons {
+  color: rgb(13, 200, 122);
+  font-size: 30px;
+}
+
+/* QUERIES */
+
+@media (max-width: 1150px) {
+
+  .header-infos-title {
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+  .header-infos-subtitle {
+    font-size: 10px;
+  }
+
+  .cards-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,17 @@
+.button {
+  width: 150px;
+  padding: 20px;
+  background-color: rgb(13, 200, 122);
+  border-radius: 35px;
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.button a {
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(9, 181, 110);
+}
